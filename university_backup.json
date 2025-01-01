@@ -1,0 +1,34 @@
+{
+  "university": "Tech University",
+  "departments": [
+    {
+      "name": "Computer Science",
+      "professors": [
+        {
+          "id": 1,
+          "name": "Dr. Smith Jr.",
+          "courses": [
+            "Algorithms",
+            "Data Structures"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Dr. Johnson",
+          "courses": [
+            "Database Systems"
+          ]
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "John Doe",
+          "courses": [
+            "Algorithms"
+          ]
+        }
+      ]
+    }
+  ]
+}
