@@ -23,3 +23,31 @@ Deletes an entry from the specified department.
 
 searchEntry(departmentName, type, id)
 Searches for an entry in the specified department.
+
+
+
+## Usage Examples
+
+### Adding Entries
+```javascript
+addEntry("Computer Science", "professor", { id: 3, name: "Dr. Brown", courses: ["Networking"] });
+addEntry("Computer Science", "student", { id: 102, name: "Alice Johnson", courses: ["Networking"] });
+```
+
+### Updating Entries
+```javascript
+updateEntry("Computer Science", "professor", 3, { name: "Dr. Brown Jr." });
+updateEntry("Computer Science", "student", 102, { courses: ["Networking", "Algorithms"] });
+```
+
+### Deleting Entries
+```javascript
+deleteEntry("Computer Science", "professor", 3);
+deleteEntry("Computer Science", "student", 102);
+```
+
+### Searching Entries
+```javascript
+searchEntry("Computer Science", "professor", 1);
+searchEntry("Computer Science", "student", 102);
+```
