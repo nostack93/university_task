@@ -8,7 +8,7 @@ This program manages a nested JSON structure representing a university system. I
 2. **Clone the Repository**: Clone this repository to your local machine.
 3. **Run the Program**: Navigate to the project directory and run the program using Node.js:
    ```bash
-   node universityManager.js
+   node index.js
 
    
 Function Documentation
